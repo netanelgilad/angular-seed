@@ -23,6 +23,7 @@ module.exports = function(config){
             'karma-chrome-launcher',
             'karma-firefox-launcher',
             'karma-phantomjs-launcher',
+            'karma-junit-reporter',
             'karma-jasmine'
             ],
     reporters : ['dots', 'junit'],
